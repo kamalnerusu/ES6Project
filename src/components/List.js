@@ -23,7 +23,7 @@ export default class List extends React.Component{
       <Row style={{backgroundColor:this.props.backgroundColor}}>
         <Col lg={12} md={12} sm={12}>
           <label htmlFor="tops" className="header">{this.props.header}</label>
-          <Table id="tops" className="tableCustom">
+          <Table id="tops" className="tableCustomClass">
 							<tr>
                 {
                   this.state.data.length?this.state.data.map((d,i)=>{
